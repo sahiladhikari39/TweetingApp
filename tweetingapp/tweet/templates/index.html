@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
-    <style>body{background-color: black; color: antiquewhite;}</style>
-</head>
-<body>
-    <p>Test template</p>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}
+tweet
+{% endblock %}
+
+{% block content %}
+<h1 class="text-center mt-4">Welcome to the tweeting application</h1>
+{% endblock %}
